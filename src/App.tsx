@@ -1,10 +1,12 @@
-import { Header } from "components/Header";
+import { Route, Routes } from 'react-router-dom';
+import { Header } from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <Header title="Hello World" />
-      <Header title="Hello World" />
+      <Routes>
+        <Route path="/" element={<Header />} />
+      </Routes>
     </div>
   );
 }
