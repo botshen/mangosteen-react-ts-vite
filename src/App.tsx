@@ -1,13 +1,15 @@
-import { Route, Routes } from 'react-router-dom';
-import { Header } from './components/Header';
+import { routes } from './config/routes';
+import { HashRouter, useRoutes } from 'react-router-dom';
+
+function RouteElement() {
+  return useRoutes(routes);
+}
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Header />} />
-      </Routes>
-    </div>
+    <HashRouter>
+      <RouteElement />
+    </HashRouter>
   );
 }
 
