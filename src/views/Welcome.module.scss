@@ -1,17 +1,15 @@
 .wrapper {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  @apply h-screen flex flex-col ;
 
   > header {
-    flex-shrink: 0;
+    @apply flex flex-shrink-0 flex-col justify-center items-center font-bold;
   }
 
   > main {
-    flex-grow: 1;
+    @apply grow;
   }
 
   > footer {
-    flex-shrink: 0;
+    @apply shrink-0;
   }
 }
