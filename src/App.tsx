@@ -1,16 +1,12 @@
-import { routes } from './config/routes';
-import { HashRouter, useRoutes } from 'react-router-dom';
+import { useRoutes } from "react-router-dom";
+import { routes } from "./config/routes";
 
-function RouteElement() {
-  return useRoutes(routes);
-}
-
-function App() {
+export default function App() {
+  const element = useRoutes(routes);
+  console.log(element);
   return (
-    <HashRouter>
-      <RouteElement />
-    </HashRouter>
+      <div className="App">
+        {element}
+      </div>
   );
 }
-
-export default App;
