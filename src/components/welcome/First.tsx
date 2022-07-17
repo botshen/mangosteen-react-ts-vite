@@ -7,7 +7,7 @@ export const First: React.FC = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.card}>
-        <img className={s.pig} src={pig} alt="pig" />
+        <img src={pig} alt="pig" />
         <h2>
           会挣钱
           <br />
