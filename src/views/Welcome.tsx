@@ -8,7 +8,7 @@ export const Welcome: React.FC = () => {
     <div className={s.wrapper}>
       <header>
         <img src={logo} alt="logo" />
-        <h1 className="text-2xl">山竹记账</h1>
+        <h1>山竹记账</h1>
       </header>
       <main>
         <Outlet />
