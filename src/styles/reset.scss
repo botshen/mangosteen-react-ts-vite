@@ -36,3 +36,12 @@ table {
 textarea {
   white-space: revert;
 }
+
+a {
+  color: inherit;
+}
+
+button,
+input {
+  font: inherit;
+}

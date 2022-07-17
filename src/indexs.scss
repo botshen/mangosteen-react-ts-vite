@@ -1,4 +1,4 @@
-@import './styles/reset.css';
+@import 'styles/reset.scss';
 
 body {
   margin: 0;
@@ -6,6 +6,8 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  font-size: 16px;
 }
 
 code {
