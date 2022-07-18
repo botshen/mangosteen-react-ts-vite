@@ -21,7 +21,7 @@ export const First: React.FC = () => {
             <Link className={s.fake} to="/start">
               跳过
             </Link>
-            <Link to="/welcome/4">下一页</Link>
+            <Link to="/welcome/2">下一页</Link>
             <Link to="/start">跳过</Link>
           </>
         ),
