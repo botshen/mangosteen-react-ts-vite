@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import s from './First.module.scss';
+import s from './WelcomeLayout.module.scss';
 import { WelcomeLayout } from './WelcomeLayout';
 import chart from '../../assets/icons/chart.svg';
 

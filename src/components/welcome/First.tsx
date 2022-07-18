@@ -2,7 +2,7 @@ import React from 'react';
 import { WelcomeLayout } from './WelcomeLayout';
 import { Link } from 'react-router-dom';
 import pig from '../../assets/icons/pig.svg';
-import s from './First.module.scss';
+import s from './WelcomeLayout.module.scss';
 
 export const First: React.FC = () => {
   return (
