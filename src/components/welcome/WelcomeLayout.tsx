@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './WelcomeLayout.module.scss';
+import s from './welcome.module.scss';
 
 type Props = {
   children: {
