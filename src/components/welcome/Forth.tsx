@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import s from './WelcomeLayout.module.scss';
+import s from './welcome.module.scss';
 import cloud from '../../assets/icons/cloud.svg';
 import { WelcomeLayout } from './WelcomeLayout';
 
